@@ -2,7 +2,7 @@ set -e -v
 
 sudo groupadd -f k3s
 sudo usermod -aG k3s $USER
-sudo chown centos:k3s /etc/rancher/k3s/k3s.yaml
+sudo chown $USER:k3s /etc/rancher/k3s/k3s.yaml
 mkdir -p $HOME/.kube
 sudo cp /etc/rancher/k3s/k3s.yaml $HOME/.kube/config
 sudo chown $USER $HOME/.kube/config
