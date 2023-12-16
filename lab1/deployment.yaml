@@ -14,7 +14,7 @@ spec:
        spec:
           containers:
           - name: hello-py
-            image: hello-py:v1
+            image: mxzgless/hello-py:v1
             ports:
               - name: web
                 containerPort: 80
