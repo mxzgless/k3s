@@ -13,3 +13,6 @@ sudo dnf install docker-ce --nobest --allowerasing -y
 #install kubectl
 #https://pwittrock.github.io/docs/tasks/tools/install-kubectl/
 
+#install minikube
+#https://kubernetes.io/ru/docs/tasks/tools/install-minikube/
+
